@@ -87,13 +87,6 @@ function App() {
           <img src="https://i.pinimg.com/564x/83/bc/fd/83bcfdc0dacd9adc9d42028806231cee.jpg" />
           <img src="https://i.pinimg.com/564x/ff/5f/d1/ff5fd1f527133567ea4da08d2b8f9fc4.jpg" />
           <img src="https://media.istockphoto.com/id/1286022854/photo/african-american-woman-writing-computer-code.jpg?s=612x612&w=0&k=20&c=DUGZgnFzzymiccxKKoeFDFO-nDtNUL5rVxpbt2IYk4g=" />
-          <img src="" />
-          <img src="" />
-          <img src="" />
-          <img src="" />
-          <img src="" />
-          <img src="" />
-          <img src="" />
         </figure>
         <div id="skillhabit">
           <article>
@@ -141,6 +134,7 @@ function App() {
           <img src="https://i.pinimg.com/564x/16/9f/1e/169f1e0fbfe602efe3ccc04c32b370cd.jpg" />
           <img src="https://i.pinimg.com/564x/2d/8d/39/2d8d39de909b31298ca3dfe3ecdf312f.jpg" />
           <img src="https://i.pinimg.com/564x/6d/d3/a5/6dd3a57963277c2b0f6634b445fdc467.jpg" />
+          <img src="https://i.pinimg.com/564x/81/b0/b2/81b0b2fe042cbab276c088b8323de914.jpg" />
         </figure>
         <div id="travel">
           <article>
@@ -201,7 +195,10 @@ function App() {
                 <li>invest in S&P 500</li>
                 <li>i will save $5000 dollars </li>
                 <li>i will pay off my discover student loan </li>
-                <li>i will start planning or saving for a trip to take my parents on </li>
+                <li>
+                  i will start planning or saving for a trip to take my parents
+                  on{" "}
+                </li>
               </ul>
             </p>
           </article>
@@ -218,11 +215,25 @@ function App() {
                 <ol>
                   <li>january to april - stay consistent with 9round</li>
                   <li>may to august - pilates</li>
-                  <li>other things to try: rock climbing, calisthenics, yoga, orange theory, train for a marathon</li>
+                  <li>
+                    other things to try: rock climbing, calisthenics, yoga,
+                    orange theory, train for a marathon
+                  </li>
                 </ol>
               </ul>
             </p>
           </article>
+          <figure>
+            <img src="https://i.pinimg.com/564x/cc/55/f3/cc55f303686b3acab488c3edc611034b.jpg"/>
+            <img src="https://i.pinimg.com/564x/2c/66/aa/2c66aa4f5c8bebcb1dcad9af14c98a1a.jpg"/>
+            <img src="https://i.pinimg.com/564x/ce/f3/4d/cef34dea5ea7c198d9457a21b5f364d5.jpg"/>
+            <img src="https://i.pinimg.com/564x/dd/1d/d0/dd1dd0e7626582927d9820903a55e4ae.jpg"/>
+            <img src="https://i.pinimg.com/564x/14/2b/94/142b9487830ee9c117fcedf07f443c4d.jpg"/>
+            <img src="https://i.pinimg.com/564x/1f/54/41/1f5441bfbc0479347b7036810854ad23.jpg"/>
+            <img src="https://i.pinimg.com/750x/77/7d/2b/777d2b0b91deb21e67463e084851a8fc.jpg"/>
+            <img src="https://i.pinimg.com/564x/92/6b/13/926b13a0be3674fb117305f60d174cec.jpg"/>
+            <img src="https://i.pinimg.com/564x/6a/d5/36/6ad5362a9970448e5be0c80fc58fe99f.jpg"/>
+          </figure>
         </div>
       </main>
 
