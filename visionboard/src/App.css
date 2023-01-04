@@ -3,29 +3,28 @@
   margin: 0;
   padding: 2rem;
   text-align: center;
- 
 }
 
 .navbar {
-background-color: rgb(92, 100, 97);
-background-image: url("https://images.unsplash.com/photo-1546387903-6d82d96ccca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWluaW1hbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
-color:black;
-overflow: inherit;
-float: inline-start;
-text-align: right;
-padding: 200px 180px;
-text-decoration: none;
-font-size: 20px;
+  background-color: rgb(92, 100, 97);
+  background-image: url("https://images.unsplash.com/photo-1546387903-6d82d96ccca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bWluaW1hbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+  color: black;
+  overflow: inherit;
+  float: inline-start;
+  text-align: right;
+  padding: 200px 180px;
+  text-decoration: none;
+  font-size: 20px;
 }
-/* 
-a.active {
-background-color: darkgray;
-color: brown;
-} */
 .card {
   padding: 2em;
 }
 
-.pics {
+img[src] {
+  height: 100px;
+  width: 100px;
+}
 
+h2:hover {
+  color: darkgoldenrod;
 }

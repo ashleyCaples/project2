@@ -277,6 +277,7 @@ function App() {
               <img src="https://i.pinimg.com/564x/52/28/df/5228df0eefdda91bf8619502258b0121.jpg" />
               <img src="https://accidentallyretired.com/wp-content/uploads/2021/05/The-Little-Book-of-Common-Sense-Investing-by-John-C.-Bogle.jpg" />
               <img src="https://m.foolcdn.com/media/dubs/original_images/SP_500_Index.jpg" />
+              <img src="https://thepointsguy.global.ssl.fastly.net/us/originals/2021/06/NYC-FiDi_Amex-Gold_1_WSmith.jpg"/>
             </div>
           </figure>
         </div>
@@ -313,6 +314,8 @@ function App() {
               <img src="https://i.pinimg.com/564x/6a/d5/36/6ad5362a9970448e5be0c80fc58fe99f.jpg" /> 
               <img src="https://i.pinimg.com/564x/c6/64/27/c664273aecd3140e55ed81c7466c4281.jpg"/>
               <img src="https://i.pinimg.com/564x/4a/5c/86/4a5c866f02e385722f12fedd37be986e.jpg"/>
+              <img src="https://iowacity.momcollective.com/wp-content/uploads/2022/03/IMG_0527.jpg"/>
+              <img src="https://i.pinimg.com/736x/2f/6b/67/2f6b678adc72d14c7846e12be1337268.jpg"/>
             </div>
           </figure>
         </div>
