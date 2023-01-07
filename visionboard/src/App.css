@@ -21,10 +21,18 @@
 }
 
 img[src] {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
 }
 
 h2:hover {
   color: darkgoldenrod;
+}
+
+h3:hover {
+  color: green
+}
+
+.goallist li{
+  list-style-type: none;
 }
