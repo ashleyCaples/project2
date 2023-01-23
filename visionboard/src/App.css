@@ -11,13 +11,12 @@
 }
 
 .navbar {
-  background-color: aqua;
+  background-color: beige;
   /* background-image: url("https://t3.ftcdn.net/jpg/03/25/10/26/360_F_325102660_beZCqW8x9Gy0RuszETfjGjrD2vFhoIQG.jpg"); */
   background-size: cover;
-  border-style: solid;
   color: black;
-  text-align: center;
-  padding: 100px;
+  text-align: left;
+  padding: 50px;
   font-size: 20px;
 }
 
