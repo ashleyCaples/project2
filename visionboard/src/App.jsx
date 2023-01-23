@@ -77,10 +77,8 @@ function App() {
             <p>
               <ul className="goallist">
                 <li>i will improve my networking skills</li>
-                <ol>
-                  <li>keep in touch with old peers</li>
-                  <li>become more active on linkedin</li>
-                </ol>
+                <li>keep in touch with old peers</li>
+                <li>become more active on linkedin</li>
                 <li>i want to go to a conference this year</li>
               </ul>
             </p>
@@ -95,7 +93,6 @@ function App() {
             <img src="https://i.pinimg.com/564x/83/bc/fd/83bcfdc0dacd9adc9d42028806231cee.jpg" />
             <img src="https://i.pinimg.com/564x/ff/5f/d1/ff5fd1f527133567ea4da08d2b8f9fc4.jpg" />
             <img src="https://media.istockphoto.com/id/1286022854/photo/african-american-woman-writing-computer-code.jpg?s=612x612&w=0&k=20&c=DUGZgnFzzymiccxKKoeFDFO-nDtNUL5rVxpbt2IYk4g=" />
-            <img src="https://theartcareerproject.com/wp-content/uploads/2021/06/Web-Developer-Image.png" />
             <img src="https://i.pinimg.com/564x/a0/f0/e2/a0f0e20fbef61da1145fbef70f072d21.jpg" />
             <img src="https://i.pinimg.com/564x/b4/33/4a/b4334a4b0cb5a0364ff03372ec517c0c.jpg" />
             <img src="https://i.pinimg.com/564x/a3/49/31/a34931decec5d46faa5fe8b4f79dfa77.jpg" />
@@ -283,7 +280,7 @@ function App() {
             </div>
           </figure>
         </div>
-        <div className="fitnesshealth">
+        <div id="fitnesshealth">
           <article>
             <h2>fitness & health</h2>
             <p>
