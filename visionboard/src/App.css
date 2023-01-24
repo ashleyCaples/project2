@@ -10,14 +10,21 @@
   background-color: rgb(112, 67, 4);
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
   background-color: beige;
-  /* background-image: url("https://t3.ftcdn.net/jpg/03/25/10/26/360_F_325102660_beZCqW8x9Gy0RuszETfjGjrD2vFhoIQG.jpg"); */
   background-size: cover;
   color: black;
   text-align: left;
-  padding: 50px;
+  padding: 25px;
   font-size: 20px;
+  position: fixed;
+  z-index: 1;
 }
 
 .navbar li {
@@ -26,7 +33,9 @@
 
 .navbar ul {
   border: 1px solid slategray;
-  border-radius: 15px;
+  border-radius: 10px;
+  padding-left: 0px;
+  color: black;
 }
 
 .card {
@@ -45,8 +54,37 @@ img[src] {
   padding-bottom: 0px;
 }
 
+h1 {
+  margin: 0px;
+  background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_571,q_80,w_1603/v1/clients/raleigh/165_3_0042_jpeg_a32ab91e-8245-42f1-baa2-36a6f2a54dbb.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 500px;
+  font-size: 75px;
+  padding-top: 75px;
+  color: white;
+  opacity: 0.77;
+  
+}
+
+/* video {
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%; */
+
+h2 {
+  font-size: 30px;
+}
+
 h2:hover {
   color: darkgoldenrod;
+}
+
+h3 {
+  font-size: 25px;
 }
 
 h3:hover {
@@ -55,6 +93,8 @@ h3:hover {
 
 .goallist li {
   list-style-type: none;
+  text-align: center;
+  font-size: 22px;
 }
 
 #locs {

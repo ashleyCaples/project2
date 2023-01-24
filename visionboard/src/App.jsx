@@ -38,14 +38,29 @@ function App() {
         </ul>
       </div>
       <header>
-        <h1>visionboard 2023</h1>
+        <div id="home">
+          <h1>visionboard 2023</h1>
+        </div>
+
+        {/* <video autoplay>
+          <source
+            src="AdobeStock_467433525_AdobeExpress.mp4"
+            type="video/mp4"
+            autoplay
+          ></source>
+        </video>
+         */}
       </header>
       <main>
         <div id="locs">
           <article>
             <h2>locs</h2>
-            <p>i want happy healthy locs</p>
-            <p>first year loc'd</p>
+            <p>
+              <ul className="goallist">
+                <li>i want happy healthy locs</li>
+                <li>first year loc'd</li>
+              </ul>
+            </p>
           </article>
         </div>
         <figure>
@@ -119,7 +134,12 @@ function App() {
             </p>
             <h3>reading</h3>
             <p>
-              i will read ONE book each month (a total of 12 books in the year)
+              <ul className="goallist">
+                <li>
+                  i will read ONE book each month (a total of 12 books in the
+                  year)
+                </li>
+              </ul>
             </p>
             <h3>habits</h3>
             <p>
@@ -289,14 +309,12 @@ function App() {
                 <li>i will build back muscles</li>
                 <li>i will tone my body</li>
                 <li>i will stay trying new and fun active things</li>
-                <ol>
-                  <li>january to april - stay consistent with 9round</li>
-                  <li>may to august - pilates</li>
-                  <li>
-                    other things to try: rock climbing, calisthenics, yoga,
-                    orange theory, train for a marathon
-                  </li>
-                </ol>
+                <li>january to april - stay consistent with 9round</li>
+                <li>may to august - pilates</li>
+                <li>
+                  other things to try: rock climbing, calisthenics, yoga, orange
+                  theory, train for a marathon
+                </li>
               </ul>
             </p>
           </article>
