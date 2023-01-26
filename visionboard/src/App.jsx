@@ -39,17 +39,14 @@ function App() {
       </div>
       <header>
         <div id="home">
-          <h1>visionboard 2023</h1>
+          {/* <h1>visionboard 2023</h1> */}
+          <video autoplay playsInline loop>
+            <source
+              src="AdobeStock_467433525_AdobeExpress.mp4"
+              type="video/mp4"
+            ></source>
+          </video>
         </div>
-
-        {/* <video autoplay>
-          <source
-            src="AdobeStock_467433525_AdobeExpress.mp4"
-            type="video/mp4"
-            autoplay
-          ></source>
-        </video>
-         */}
       </header>
       <main>
         <div id="locs">

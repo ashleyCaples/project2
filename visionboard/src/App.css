@@ -56,17 +56,16 @@ img[src] {
 
 h1 {
   margin: 0px;
-  background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_571,q_80,w_1603/v1/clients/raleigh/165_3_0042_jpeg_a32ab91e-8245-42f1-baa2-36a6f2a54dbb.jpg");
+  /* background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_571,q_80,w_1603/v1/clients/raleigh/165_3_0042_jpeg_a32ab91e-8245-42f1-baa2-36a6f2a54dbb.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  height: 500px;
+  background-size: cover; */
+  /* height: 500px; */
   font-size: 75px;
-  padding-top: 75px;
+  /* padding-top: 75px; */
   color: white;
-  opacity: 0.77;
-  
+  z-index: 2;
 }
 
 /* video {
