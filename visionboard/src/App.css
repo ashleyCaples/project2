@@ -25,18 +25,25 @@ body {
   font-size: 20px;
   position: fixed;
   z-index: 1;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .navbar li {
   list-style-type: none;
+  display: inline;
+  padding-right: 2.22rem;
+  font-weight: bold;
 }
 
-.navbar ul {
+/* .navbar ul {
   border: 1px solid slategray;
   border-radius: 10px;
   padding-left: 0px;
   color: black;
-}
+} */
 
 .card {
   padding: 2em;
@@ -54,18 +61,18 @@ img[src] {
   padding-bottom: 0px;
 }
 
-h1 {
+header {
   margin: 0px;
-  /* background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_571,q_80,w_1603/v1/clients/raleigh/165_3_0042_jpeg_a32ab91e-8245-42f1-baa2-36a6f2a54dbb.jpg");
+  background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_571,q_80,w_1603/v1/clients/raleigh/165_3_0042_jpeg_a32ab91e-8245-42f1-baa2-36a6f2a54dbb.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; */
-  /* height: 500px; */
-  font-size: 75px;
-  /* padding-top: 75px; */
+  background-size: cover;
+  height: 850px;
+  font-size: 65px;
+  padding-top: 75px;
   color: white;
-  z-index: 2;
+  opacity: 0.85;
 }
 
 /* video {
@@ -80,6 +87,7 @@ h2 {
 
 h2:hover {
   color: darkgoldenrod;
+  text-decoration: underline;
 }
 
 h3 {
@@ -88,6 +96,15 @@ h3 {
 
 h3:hover {
   color: green;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 .goallist li {
@@ -101,7 +118,8 @@ h3:hover {
   border-left: 0px;
   border-right: 0px;
   border-bottom: 0px;
-  padding: 15px;
+  padding-top: 150px;
+  padding-bottom: 15px;
 }
 
 #career {
