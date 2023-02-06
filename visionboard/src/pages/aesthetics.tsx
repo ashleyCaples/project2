@@ -96,9 +96,9 @@ export const Aesthetics = () => {
             <img src="https://i.pinimg.com/564x/91/36/9e/91369eb282f21886c7be688d60939643.jpg" />
             <img src="https://i.pinimg.com/564x/a4/f7/5b/a4f75bf500b5f7525645ed01183f11b2.jpg" />
             <img src="https://i.pinimg.com/750x/ac/a0/5e/aca05e706438dad740d324d8e026df01.jpg" />
-          </div>
+        </div>
         </figure>
-      </div>
+    </div>
     </>
-  );
+);
 };
