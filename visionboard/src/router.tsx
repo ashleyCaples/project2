@@ -14,7 +14,7 @@ import { Travel } from "./pages/travel";
 export const Router = () => {
 return (
     <Routes>
-    <Route index element={<Home />} />
+    <Route path="/home" index element={<Home />} />
     <Route path="/aesthetics" element={<Aesthetics />} />
     <Route path="/career" element={<Career />} />
     <Route path="/finances" element={<Finances />} />
