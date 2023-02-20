@@ -16,35 +16,6 @@ body {
   padding: 0;
 }
 
-.navbar {
-  background-color: beige;
-  background-size: cover;
-  color: black;
-  text-align: left;
-  padding: 25px;
-  font-size: 20px;
-  position: fixed;
-  z-index: 1;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.navbar li {
-  list-style-type: none;
-  display: inline;
-  padding-right: 2.22rem;
-  font-weight: bold;
-}
-
-/* .navbar ul {
-  border: 1px solid slategray;
-  border-radius: 10px;
-  padding-left: 0px;
-  color: black;
-} */
-
 .card {
   padding: 2em;
   border: 2px solid darkgreen;
@@ -63,23 +34,40 @@ img[src] {
 
 header {
   margin: 0px;
-  background-image: url("https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,h_571,q_80,w_1603/v1/clients/raleigh/165_3_0042_jpeg_a32ab91e-8245-42f1-baa2-36a6f2a54dbb.jpg");
+  background-image: url(/images/backgroundphoto.jpeg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 850px;
+  height: 800px;
   font-size: 65px;
   padding-top: 75px;
   color: white;
-  opacity: 0.85;
+}
+#margin-quote-1 {
+  padding-top: 30px;
+  margin-top: 0px;
 }
 
-/* video {
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%; */
+.home-square1 {
+  background-color: rgb(65, 65, 61);
+  color: lightgrey;
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  justify-content: center;
+}
+
+.homecards {
+  display: inline-flex;
+  width: 50%;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
 
 h2 {
   font-size: 30px;
@@ -114,16 +102,15 @@ a:hover {
 }
 
 #locs {
-  border: 3px dotted gainsboro;
+  border: 3px solid gainsboro;
   border-left: 0px;
   border-right: 0px;
   border-bottom: 0px;
-  padding-top: 150px;
-  padding-bottom: 15px;
+  padding: 15px;
 }
 
 #career {
-  border: 3px dotted gainsboro;
+  border: 3px solid gainsboro;
   border-left: 0px;
   border-right: 0px;
   border-bottom: 0px;
@@ -131,7 +118,7 @@ a:hover {
 }
 
 #skillhabit {
-  border: 3px dotted gainsboro;
+  border: 3px solid gainsboro;
   border-left: 0px;
   border-right: 0px;
   border-bottom: 0px;
@@ -139,7 +126,7 @@ a:hover {
 }
 
 #travel {
-  border: 3px dotted gainsboro;
+  border: 3px solid gainsboro;
   border-left: 0px;
   border-right: 0px;
   border-bottom: 0px;
@@ -147,7 +134,8 @@ a:hover {
 }
 
 #aesthetics {
-  border: 3px dotted gainsboro;
+  display:inline-flex;
+  border: 3px solid gainsboro;
   border-left: 0px;
   border-right: 0px;
   border-bottom: 0px;
@@ -155,7 +143,7 @@ a:hover {
 }
 
 #finances {
-  border: 3px dotted gainsboro;
+  border: 3px solid gainsboro;
   border-left: 0px;
   border-right: 0px;
   border-bottom: 0px;
@@ -163,7 +151,7 @@ a:hover {
 }
 
 #fitnesshealth {
-  border: 3px dotted gainsboro;
+  border: 3px solid gainsboro;
   border-left: 0px;
   border-right: 0px;
   border-bottom: 0px;

@@ -3,35 +3,6 @@ import React from "react";
 export const Finances = () => {
   return (
     <>
-      <div>finance page bitch</div>
-      <div className="navbar">
-        <ul>
-          <li>
-            <a href="./home">home</a>
-          </li>
-          <li>
-            <a href="./locs">locs</a>
-          </li>
-          <li>
-            <a href="./career">career</a>
-          </li>
-          <li>
-            <a href="./skillhabit">skills & habits</a>
-          </li>
-          <li>
-            <a href="./travel">travel</a>
-          </li>
-          <li>
-            <a href="./aesthetics">aesthetics</a>
-          </li>
-          <li>
-            <a href="./finances">finances</a>
-          </li>
-          <li>
-            <a href="./fitnesshealth">fitness & health</a>
-          </li>
-        </ul>
-      </div>
       <div id="finances">
         <article>
           <h2>finances</h2>
@@ -40,8 +11,6 @@ export const Finances = () => {
               <li>i will open a high yield savings account</li>
               <li>i will begin investing in my roth ira </li>
               <li>invest in S&P 500</li>
-              <li>i will save $5000 dollars </li>
-              <li>i will pay off my discover student loan </li>
               <li>
                 i will start planning or saving for a trip to take my parents on
               </li>

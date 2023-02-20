@@ -3,68 +3,9 @@ import React from "react";
 export const SkillHabit = () => {
   return (
     <>
-      <div>skills and habits page bitch</div>
-      <div className="navbar">
-        <ul>
-          <li>
-            <a href="./home">home</a>
-          </li>
-          <li>
-            <a href="./locs">locs</a>
-          </li>
-          <li>
-            <a href="./career">career</a>
-          </li>
-          <li>
-            <a href="./skillhabit">skills & habits</a>
-          </li>
-          <li>
-            <a href="./travel">travel</a>
-          </li>
-          <li>
-            <a href="./aesthetics">aesthetics</a>
-          </li>
-          <li>
-            <a href="./finances">finances</a>
-          </li>
-          <li>
-            <a href="./fitnesshealth">fitness & health</a>
-          </li>
-        </ul>
-      </div>
       <div id="skillhabit">
         <article>
           <h2>skills & habits</h2>
-          <h3>cooking</h3>
-          <p>
-            <ul className="goallist">
-              <li>i will cook at least 5 times a week </li>
-              <li>
-                i will try at least one new recipe every other week (at least 26
-                new recipes put into my recipe book)
-              </li>
-              <li>i will create a recipe book (online or hardcopy) reading</li>
-            </ul>
-          </p>
-          <h3>reading</h3>
-          <p>
-            <ul className="goallist">
-              <li>
-                i will read ONE book each month (a total of 12 books in the
-                year)
-              </li>
-            </ul>
-          </p>
-          <h3>habits</h3>
-          <p>
-            <ul className="goallist">
-              <li>
-                i will seize the most out of the day, i will wake up at 7:30 -
-                8:00 am
-              </li>
-              <li>i will drink at least 60 oz of water </li>
-            </ul>
-          </p>
         </article>
       </div>
       <figure>

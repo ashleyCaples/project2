@@ -3,35 +3,6 @@ import React from "react";
 export const Career = () => {
   return (
     <>
-      <div>This is the career page bitch</div>
-      <div className="navbar">
-        <ul>
-          <li>
-            <a href="./home">home</a>
-          </li>
-          <li>
-            <a href="./locs">locs</a>
-          </li>
-          <li>
-            <a href="./career">career</a>
-          </li>
-          <li>
-            <a href="./skillhabit">skills & habits</a>
-          </li>
-          <li>
-            <a href="./travel">travel</a>
-          </li>
-          <li>
-            <a href="./aesthetics">aesthetics</a>
-          </li>
-          <li>
-            <a href="./finances">finances</a>
-          </li>
-          <li>
-            <a href="./fitnesshealth">fitness & health</a>
-          </li>
-        </ul>
-      </div>
       <div id="career">
         <article>
           <h2>career</h2>
