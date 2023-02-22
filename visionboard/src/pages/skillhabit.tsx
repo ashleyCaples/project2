@@ -1,3 +1,4 @@
+import { Button, Stack } from "@mui/material";
 import React from "react";
 
 export const SkillHabit = () => {
@@ -8,7 +9,14 @@ export const SkillHabit = () => {
           <h2>skills & habits</h2>
         </article>
       </div>
-      <figure>
+      <div>
+      <Stack spacing={2} direction="row">
+      <Button variant="outlined" href="/cooking">cooking</Button>
+      <Button variant="outlined" href="/reading">reading</Button>
+      <Button variant="outlined" href="/habits">habits</Button>
+    </Stack>
+      </div>
+      {/* <figure>
         <div>
           <img src="https://i.pinimg.com/564x/5c/3f/11/5c3f11e79b5e0818726ada3802d7d77d.jpg" />
           <img src="https://i.pinimg.com/564x/4e/10/6c/4e106c221030c9219bef559f8917b3c5.jpg" />
@@ -28,7 +36,7 @@ export const SkillHabit = () => {
           <img src="https://i.pinimg.com/564x/cc/36/a2/cc36a24389efe1f7bebfa8d955a3b59e.jpg" />
           <img src="https://i.pinimg.com/564x/47/d9/c3/47d9c34fd5480ac7529240b5d7bbd2f2.jpg" />
         </div>
-      </figure>
+      </figure> */}
     </>
   );
 };

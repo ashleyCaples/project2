@@ -1,5 +1,5 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
+import { Box } from "@mui/material";
 import Drawer from "@mui/material/Drawer";
 import Button from "@mui/material/Button";
 import List from "@mui/material/List";
@@ -116,10 +116,10 @@ export default function TemporaryDrawer() {
 
       <Divider />
       <List>
-      <ListItem disablePadding>
+        <ListItem disablePadding>
           <ListItemButton href="/upload">
             <ListItemIcon>
-            <AddAPhotoTwoToneIcon />
+              <AddAPhotoTwoToneIcon />
             </ListItemIcon>
             <ListItemText>photos</ListItemText>
           </ListItemButton>
@@ -127,7 +127,7 @@ export default function TemporaryDrawer() {
         <ListItem disablePadding>
           <ListItemButton href="./rickmorty">
             <ListItemIcon>
-            <FileDownloadTwoToneIcon />
+              <FileDownloadTwoToneIcon />
             </ListItemIcon>
             <ListItemText>rick & morty</ListItemText>
           </ListItemButton>
@@ -164,7 +164,6 @@ export default function TemporaryDrawer() {
           </Drawer>
         </React.Fragment>
       ))}
-      
     </div>
   );
 }
